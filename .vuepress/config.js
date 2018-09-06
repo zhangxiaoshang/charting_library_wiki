@@ -52,6 +52,7 @@ var sidebar = [
 ]
 
 module.exports = {
+  base: '/charting_library_wiki/',
   locales: {
     '/': {
       lang: 'en-US',
