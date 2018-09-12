@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Displaying your data as an indicator | Charting Library</title>
+    <meta name="description" content="TradingView 中文文档 教程">
+    
+    
+    <link rel="preload" href="/charting_library_wiki/assets/css/0.styles.54154195.css" as="style"><link rel="preload" href="/charting_library_wiki/assets/js/app.e5b750fa.js" as="script"><link rel="preload" href="/charting_library_wiki/assets/js/54.b3f35d36.js" as="script"><link rel="prefetch" href="/charting_library_wiki/assets/js/45.77fdc049.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/2.cda51ec0.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/3.9a9210e8.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/4.3025f96f.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/5.2e481db8.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/6.692643df.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/7.d6c7c61a.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/8.ff0f9bbb.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/9.929a30eb.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/10.b9ac493c.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/11.67531abf.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/12.95004755.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/13.5f8b090e.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/14.61d2b640.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/15.7019d5c6.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/16.f84bac21.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/17.33bbeaad.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/18.faed2cc9.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/19.eabedd50.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/20.ec41bf98.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/21.e3cda3cb.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/22.75f47b08.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/23.9caf12e7.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/24.9cb52b13.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/25.1ee74391.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/26.23e99a27.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/27.96114175.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/28.c39e9894.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/29.e65ce808.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/30.26d6e58a.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/31.1309fa0e.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/32.f140b54d.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/33.ab7de8c2.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/34.497847f4.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/35.ff0d5d4e.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/36.510643a4.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/37.ea794330.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/38.c805a15f.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/39.dcd0c595.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/40.048441b9.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/41.e8f5ac87.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/42.80345ee9.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/43.810157de.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/44.ee1eb15d.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/46.f3975c58.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/47.e2ed9389.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/48.aa18db6f.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/49.6517b828.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/50.aa45c418.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/51.34038e3a.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/52.d1e1248d.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/53.15f51e33.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/55.b3a53b32.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/56.18e47f02.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/57.7107fce6.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/58.fde0151b.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/59.d1cf9754.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/60.79173131.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/61.5e3a4ac2.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/62.e4e6e728.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/63.ff9aea40.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/64.4f66dc8f.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/65.3b5a4286.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/66.a6f5bbdf.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/67.aff444b7.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/68.c79aa96f.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/69.2f04baac.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/70.b0d52396.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/71.148f19aa.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/72.b9e446e2.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/73.ef903171.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/74.d343d04d.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/75.19ae215d.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/76.51b0e0e4.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/77.6279f2f3.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/78.b96dc129.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/79.039f3470.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/80.f6138705.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/81.cce9bb97.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/82.f6415b45.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/83.d375e2c5.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/84.a50f5549.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/85.de85aa80.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/86.9f650c9e.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/87.d9b6ad2a.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/88.a371aca2.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/89.072874a9.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/90.fababa10.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/91.cd19e4f3.js">
+    <link rel="stylesheet" href="/charting_library_wiki/assets/css/0.styles.54154195.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/charting_library_wiki/zh/" class="home-link router-link-active"><!----> <span class="site-name">Charting Library</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/charting_library_wiki/wiki/Creating-Custom-Studies.html" class="nav-link">English</a></li><li class="dropdown-item"><!----> <a href="/charting_library_wiki/zh/wiki/Creating-Custom-Studies.html" class="nav-link router-link-exact-active router-link-active">简体中文</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/charting_library_wiki/wiki/Creating-Custom-Studies.html" class="nav-link">English</a></li><li class="dropdown-item"><!----> <a href="/charting_library_wiki/zh/wiki/Creating-Custom-Studies.html" class="nav-link router-link-exact-active router-link-active">简体中文</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/charting_library_wiki/zh/wiki/Home.html" class="sidebar-link">Charting Library 是什么</a></li><li><div class="sidebar-group"><p class="sidebar-heading"><span>现在开始</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/charting_library_wiki/zh/wiki/Package-Content.html" class="sidebar-link">文件包内容</a></li><li><a href="/charting_library_wiki/zh/wiki/Running-Your-Charting-Library.html" class="sidebar-link">运行图表库</a></li><li><a href="/charting_library_wiki/zh/wiki/Best-Practices.html" class="sidebar-link">最佳实践</a></li><li><a href="/charting_library_wiki/zh/wiki/Frequently-Asked-Questions.html" class="sidebar-link">常见问题</a></li></ul></div></li><li><div class="sidebar-group"><p class="sidebar-heading"><span>绑定数据</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/charting_library_wiki/zh/wiki/How-To-Connect-My-Data.html" class="sidebar-link">如何连接我的数据</a></li><li><a href="/charting_library_wiki/zh/wiki/JS-Api.html" class="sidebar-link">JS Api</a></li><li><a href="/charting_library_wiki/zh/wiki/UDF.html" class="sidebar-link">UDF</a></li><li><a href="/charting_library_wiki/zh/wiki/Symbology.html" class="sidebar-link">Symbology</a></li><li><a href="/charting_library_wiki/zh/wiki/Trading-Sessions.html" class="sidebar-link">Trading Sessions</a></li><li><a href="/charting_library_wiki/zh/wiki/Quotes.html" class="sidebar-link">Quotes</a></li></ul></div></li><li><div class="sidebar-group"><p class="sidebar-heading"><span>图表定制</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/charting_library_wiki/zh/wiki/Customization-Overview.html" class="sidebar-link">Customization Overview</a></li><li><a href="/charting_library_wiki/zh/wiki/Widget-Constructor.html" class="sidebar-link">a. Widget Constructor</a></li><li><a href="/charting_library_wiki/zh/wiki/Widget-Methods.html" class="sidebar-link">b. Widget Methods</a></li><li><a href="/charting_library_wiki/zh/wiki/Chart-Methods.html" class="sidebar-link">c. Chart Methods</a></li><li><a href="/charting_library_wiki/zh/wiki/Featuresets.html" class="sidebar-link">d. Featuresets</a></li><li><a href="/charting_library_wiki/zh/wiki/Customization-Overview.html#customization-done-through-data-stream" class="sidebar-link">服务器端定制</a></li><li><a href="/charting_library_wiki/zh/wiki/Customization-Use-Cases.html" class="sidebar-link">定制用例</a></li></ul></div></li><li><div class="sidebar-group"><p class="sidebar-heading"><span>Trading Terminal</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/charting_library_wiki/wiki/Trading-Terminal.html" class="sidebar-link">1. Brief Intro</a></li><li><a href="/charting_library_wiki/wiki/Broker-API.html" class="sidebar-link">2. Broker API</a></li><li><a href="/charting_library_wiki/wiki/Trading-Host.html" class="sidebar-link">3. Trading Host</a></li><li><a href="/charting_library_wiki/wiki/Account-Manager.html" class="sidebar-link">4. Account Manager</a></li><li><a href="/charting_library_wiki/wiki/Trading-Objects-and-Constants.html" class="sidebar-link"> 5.Trading Objects and Constants</a></li><li><a href="/charting_library_wiki/wiki/Saving-and-Loading-Charts.html" class="sidebar-link">Saving/Loading Charts</a></li><li><a href="/charting_library_wiki/wiki/Creating-Custom-Studies.html" class="sidebar-link">Creating Custom Studies</a></li><li><a href="/charting_library_wiki/wiki/Breaking-Changes.html" class="sidebar-link">Breaking Changes In Version</a></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h2 id="displaying-your-data-as-an-indicator"><a href="#displaying-your-data-as-an-indicator" aria-hidden="true" class="header-anchor">#</a> Displaying your data as an indicator</h2> <p>The instruction below explains how to display chart data as an indicator. Please follow these steps.</p> <ol><li><p>Come up with a new ticker name to display your data and set up your server to return valid SymbolInfo for this new ticker.</p></li> <li><p>Also, set up the server to return valid historical data for this ticker.</p></li> <li><p>Use the indicator template and complete the following fields: name, descriptions, and the ticker. Modify the default style of the indicator if required.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token punctuation">{</span>
+    <span class="token comment">// Replace the &lt;study name&gt; with your study name</span>
+    <span class="token comment">// The name will be used internally by the Charting Library</span>
+    name<span class="token punctuation">:</span> <span class="token string">&quot;&lt;study name&gt;&quot;</span><span class="token punctuation">,</span>
+    metainfo<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;_metainfoVersion&quot;</span><span class="token punctuation">:</span> <span class="token number">40</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&lt;study name&gt;@tv-basicstudies-1&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;scriptIdPart&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&lt;study name&gt;&quot;</span><span class="token punctuation">,</span>
+
+        <span class="token comment">// This description will be displayed in the Indicators window</span>
+        <span class="token comment">// It is also used as a &quot;name&quot; argument when calling the createStudy method</span>
+        <span class="token string">&quot;description&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&lt;study description&gt;&quot;</span><span class="token punctuation">,</span>
+
+        <span class="token comment">// This description will be displayed on the chart</span>
+        <span class="token string">&quot;shortDescription&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&lt;short study description&gt;&quot;</span><span class="token punctuation">,</span>
+
+        <span class="token string">&quot;is_hidden_study&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;is_price_study&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;isCustomIndicator&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+        <span class="token string">&quot;plots&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span><span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;plot_0&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;type&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;line&quot;</span><span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;defaults&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;styles&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                <span class="token string">&quot;plot_0&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                    <span class="token string">&quot;linestyle&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+                    <span class="token string">&quot;visible&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+                    <span class="token comment">// Plot line width.</span>
+                    <span class="token string">&quot;linewidth&quot;</span><span class="token punctuation">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+
+                    <span class="token comment">// Plot type:</span>
+                    <span class="token comment">//    1 - Histogram</span>
+                    <span class="token comment">//    2 - Line</span>
+                    <span class="token comment">//    3 - Cross</span>
+                    <span class="token comment">//    4 - Area</span>
+                    <span class="token comment">//    5 - Columns</span>
+                    <span class="token comment">//    6 - Circles</span>
+                    <span class="token comment">//    7 - Line With Breaks</span>
+                    <span class="token comment">//    8 - Area With Breaks</span>
+                    <span class="token string">&quot;plottype&quot;</span><span class="token punctuation">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+
+                    <span class="token comment">// Show price line?</span>
+                    <span class="token string">&quot;trackPrice&quot;</span><span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+
+                    <span class="token comment">// Plot transparency, in percent.</span>
+                    <span class="token string">&quot;transparency&quot;</span><span class="token punctuation">:</span> <span class="token number">40</span><span class="token punctuation">,</span>
+
+                    <span class="token comment">// Plot color in #RRGGBB format</span>
+                    <span class="token string">&quot;color&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;#0000FF&quot;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+            <span class="token comment">// Precision of the study's output values</span>
+            <span class="token comment">// (quantity of digits after the decimal separator).</span>
+            <span class="token string">&quot;precision&quot;</span><span class="token punctuation">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+
+            <span class="token string">&quot;inputs&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;styles&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;plot_0&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                <span class="token comment">// Output name will be displayed in the Style window</span>
+                <span class="token string">&quot;title&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;-- output name --&quot;</span><span class="token punctuation">,</span>
+                <span class="token string">&quot;histogramBase&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;inputs&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+    constructor<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function-variable function">init</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> inputCallback<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>_context <span class="token operator">=</span> context<span class="token punctuation">;</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>_input <span class="token operator">=</span> inputCallback<span class="token punctuation">;</span>
+
+            <span class="token comment">// Define the symbol to be plotted.</span>
+            <span class="token comment">// Symbol should be a string.</span>
+            <span class="token comment">// You can use PineJS.Std.ticker(this._context) to get the selected symbol's ticker.</span>
+            <span class="token comment">// For example,</span>
+            <span class="token comment">//    var symbol = &quot;AAPL&quot;;</span>
+            <span class="token comment">//    var symbol = &quot;#EQUITY&quot;;</span>
+            <span class="token comment">//    var symbol = PineJS.Std.ticker(this._context) + &quot;#TEST&quot;;</span>
+            <span class="token keyword">var</span> symbol <span class="token operator">=</span> <span class="token string">&quot;&lt;TICKER&gt;&quot;</span><span class="token punctuation">;</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>_context<span class="token punctuation">.</span><span class="token function">new_sym</span><span class="token punctuation">(</span>symbol<span class="token punctuation">,</span> PineJS<span class="token punctuation">.</span>Std<span class="token punctuation">.</span><span class="token function">period</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>_context<span class="token punctuation">)</span><span class="token punctuation">,</span> PineJS<span class="token punctuation">.</span>Std<span class="token punctuation">.</span><span class="token function">period</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>_context<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function-variable function">main</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> inputCallback<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>_context <span class="token operator">=</span> context<span class="token punctuation">;</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span>_input <span class="token operator">=</span> inputCallback<span class="token punctuation">;</span>
+
+            <span class="token keyword">this</span><span class="token punctuation">.</span>_context<span class="token punctuation">.</span><span class="token function">select_sym</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+            <span class="token comment">// You can use following built-in functions in PineJS.Std object:</span>
+            <span class="token comment">//    open, high, low, close</span>
+            <span class="token comment">//    hl2, hlc3, ohlc4</span>
+            <span class="token keyword">var</span> v <span class="token operator">=</span> PineJS<span class="token punctuation">.</span>Std<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>_context<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">return</span> <span class="token punctuation">[</span>v<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li> <li><p>Save the indicator into the custom indicators file with the following structure:</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>__customIndicators <span class="token operator">=</span> <span class="token punctuation">[</span>
+    <span class="token comment">// *** your indicator object, created from the template ***</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre></div><p>Note, that indicators file is a JavaScript source file that only defines an array of indicator objects. You are able to add several indicators to this file. You are also able to add the indicators that we compiled for you.</p></li> <li><p>Use <a href="Widget-Constructor#indicators_file_name">indicators_file_name</a> option of widget's constructor to load custom indicators from the indicators file.</p></li> <li><p>Update your widget's initialization code to <a href="Chart-Methods#createstudyname-forceoverlay-lock-inputs-callback-overrides-options">create</a> this indicator when the chart is ready.</p></li></ol> <h2 id="examples"><a href="#examples" aria-hidden="true" class="header-anchor">#</a> Examples</h2> <ol><li><p>Add the indicator to the Charting Library using <a href="Widget-Constructor#indicators_file_name">indicators_file_name</a> option.</p></li> <li><p>Change your widget's initialization code. Here is an example.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>widget <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">TradingView<span class="token punctuation">.</span>widget</span><span class="token punctuation">(</span><span class="token comment">/* ... */</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+widget<span class="token punctuation">.</span><span class="token function">onChartReady</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    widget<span class="token punctuation">.</span><span class="token function">chart</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">createStudy</span><span class="token punctuation">(</span><span class="token string">'&lt;indicator-name&gt;'</span><span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></li></ol> <h3 id="requesting-data-for-another-ticker"><a href="#requesting-data-for-another-ticker" aria-hidden="true" class="header-anchor">#</a> Requesting data for another ticker</h3> <p>Let's assume that you wish to display the equity curve on the chart. You will have to do the following.</p> <ul><li>Create a name for the new ticker, e.g. <code>#EQUITY</code>. You can use any name that you can think of.</li> <li>Change your server's code to validate this symbol. The minimum amount of symbol information should be returned for this ticker.</li> <li>Make the server return valid historical data for this ticker just as you return the historical data for the generic symbols such as AAPL.</li> <li>Modify the indicator template mentioned above and create the indicators file (or add a new indicator to the existing indicators file). Here is an example:</li></ul> <div class="language-javascript extra-class"><pre class="language-javascript"><code>__customIndicators <span class="token operator">=</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        name<span class="token punctuation">:</span> <span class="token string">&quot;Equity&quot;</span><span class="token punctuation">,</span>
+        metainfo<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;_metainfoVersion&quot;</span><span class="token punctuation">:</span> <span class="token number">40</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Equity@tv-basicstudies-1&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;scriptIdPart&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;name&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Equity&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;description&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Equity&quot;</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;shortDescription&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Equity&quot;</span><span class="token punctuation">,</span>
+
+            <span class="token string">&quot;is_hidden_study&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;is_price_study&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;isCustomIndicator&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+            <span class="token string">&quot;plots&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span><span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;plot_0&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;type&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;line&quot;</span><span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;defaults&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                <span class="token string">&quot;styles&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                    <span class="token string">&quot;plot_0&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                        <span class="token string">&quot;linestyle&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+                        <span class="token string">&quot;visible&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+                        <span class="token comment">// Make the line thinner</span>
+                        <span class="token string">&quot;linewidth&quot;</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+
+                        <span class="token comment">// Plot type is Line</span>
+                        <span class="token string">&quot;plottype&quot;</span><span class="token punctuation">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+
+                        <span class="token comment">// Show price line</span>
+                        <span class="token string">&quot;trackPrice&quot;</span><span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+                        <span class="token string">&quot;transparency&quot;</span><span class="token punctuation">:</span> <span class="token number">40</span><span class="token punctuation">,</span>
+
+                        <span class="token comment">// Set the plotted line color to dark red</span>
+                        <span class="token string">&quot;color&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;#880000&quot;</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+                <span class="token comment">// Precision is set to one digit, e.g. 777.7</span>
+                <span class="token string">&quot;precision&quot;</span><span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+
+                <span class="token string">&quot;inputs&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;styles&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                <span class="token string">&quot;plot_0&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                    <span class="token comment">// Output name will be displayed in the Style window</span>
+                    <span class="token string">&quot;title&quot;</span><span class="token punctuation">:</span> <span class="token string">&quot;Equity value&quot;</span><span class="token punctuation">,</span>
+                    <span class="token string">&quot;histogramBase&quot;</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            <span class="token string">&quot;inputs&quot;</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+        constructor<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function-variable function">init</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> inputCallback<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>_context <span class="token operator">=</span> context<span class="token punctuation">;</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>_input <span class="token operator">=</span> inputCallback<span class="token punctuation">;</span>
+
+                <span class="token keyword">var</span> symbol <span class="token operator">=</span> <span class="token string">&quot;#EQUITY&quot;</span><span class="token punctuation">;</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>_context<span class="token punctuation">.</span><span class="token function">new_sym</span><span class="token punctuation">(</span>symbol<span class="token punctuation">,</span> PineJS<span class="token punctuation">.</span>Std<span class="token punctuation">.</span><span class="token function">period</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>_context<span class="token punctuation">)</span><span class="token punctuation">,</span> PineJS<span class="token punctuation">.</span>Std<span class="token punctuation">.</span><span class="token function">period</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>_context<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function-variable function">main</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> inputCallback<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>_context <span class="token operator">=</span> context<span class="token punctuation">;</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>_input <span class="token operator">=</span> inputCallback<span class="token punctuation">;</span>
+
+                <span class="token keyword">this</span><span class="token punctuation">.</span>_context<span class="token punctuation">.</span><span class="token function">select_sym</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+                <span class="token keyword">var</span> v <span class="token operator">=</span> PineJS<span class="token punctuation">.</span>Std<span class="token punctuation">.</span><span class="token function">close</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>_context<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">return</span> <span class="token punctuation">[</span>v<span class="token punctuation">]</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="coloring-bars"><a href="#coloring-bars" aria-hidden="true" class="header-anchor">#</a> Coloring bars</h3> <div class="language-javascript extra-class"><pre class="language-javascript"><code>__customIndicators <span class="token operator">=</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        name<span class="token punctuation">:</span> <span class="token string">&quot;Bar Colorer Demo&quot;</span><span class="token punctuation">,</span>
+        metainfo<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            _metainfoVersion<span class="token punctuation">:</span> <span class="token number">42</span><span class="token punctuation">,</span>
+
+            id<span class="token punctuation">:</span> <span class="token string">&quot;BarColoring@tv-basicstudies-1&quot;</span><span class="token punctuation">,</span>
+
+            name<span class="token punctuation">:</span> <span class="token string">&quot;BarColoring&quot;</span><span class="token punctuation">,</span>
+            description<span class="token punctuation">:</span> <span class="token string">&quot;Bar Colorer Demo&quot;</span><span class="token punctuation">,</span>
+            shortDescription<span class="token punctuation">:</span> <span class="token string">&quot;BarColoring&quot;</span><span class="token punctuation">,</span>
+            scriptIdPart<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+            is_price_study<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+            is_hidden_study<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            isCustomIndicator<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+
+            isTVScript<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            isTVScriptStub<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+            defaults<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                precision<span class="token punctuation">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+                palettes<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                    palette_0<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                        <span class="token comment">// palette colors</span>
+                        <span class="token comment">// change it to the default colors that you prefer,</span>
+                        <span class="token comment">// but note that the user can change them in the Style tab</span>
+                        <span class="token comment">// of indicator properties</span>
+                        colors<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+                            <span class="token punctuation">{</span> color<span class="token punctuation">:</span> <span class="token string">&quot;#FFFF00&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                            <span class="token punctuation">{</span> color<span class="token punctuation">:</span> <span class="token string">&quot;#0000FF&quot;</span> <span class="token punctuation">}</span>
+                        <span class="token punctuation">]</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            inputs<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            plots<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+                id<span class="token punctuation">:</span> <span class="token string">&quot;plot_0&quot;</span><span class="token punctuation">,</span>
+
+                <span class="token comment">// plot type should be set to 'bar_colorer'</span>
+                type<span class="token punctuation">:</span> <span class="token string">&quot;bar_colorer&quot;</span><span class="token punctuation">,</span>
+
+                <span class="token comment">// this is the name of the palette that is defined</span>
+                <span class="token comment">// in 'palettes' and 'defaults.palettes' sections</span>
+                palette<span class="token punctuation">:</span> <span class="token string">&quot;palette_0&quot;</span>
+            <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+            palettes<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                palette_0<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                    colors<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+                        <span class="token punctuation">{</span> name<span class="token punctuation">:</span> <span class="token string">&quot;Color 0&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                        <span class="token punctuation">{</span> name<span class="token punctuation">:</span> <span class="token string">&quot;Color 1&quot;</span> <span class="token punctuation">}</span>
+                    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+
+                    <span class="token comment">// the mapping between the values that</span>
+                    <span class="token comment">// are returned by the script and palette colors</span>
+                    valToIndex<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+                        <span class="token number">100</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+                        <span class="token number">200</span><span class="token punctuation">:</span> <span class="token number">1</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        constructor<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function-variable function">main</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> input<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>_context <span class="token operator">=</span> context<span class="token punctuation">;</span>
+                <span class="token keyword">this</span><span class="token punctuation">.</span>_input <span class="token operator">=</span> input<span class="token punctuation">;</span>
+
+                <span class="token keyword">var</span> valueForColor0 <span class="token operator">=</span> <span class="token number">100</span><span class="token punctuation">;</span>
+                <span class="token keyword">var</span> valueForColor1 <span class="token operator">=</span> <span class="token number">200</span><span class="token punctuation">;</span>
+
+                <span class="token comment">// perform your calculations here and return one of the constants</span>
+                <span class="token comment">// that is specified as a key in 'valToIndex' mapping</span>
+                <span class="token keyword">var</span> result <span class="token operator">=</span>
+                    Math<span class="token punctuation">.</span><span class="token function">random</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">100</span> <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">&gt;</span> <span class="token number">1</span> <span class="token operator">?</span> <span class="token comment">// we randomly select one of the color values</span>
+                        valueForColor0 <span class="token punctuation">:</span> valueForColor1<span class="token punctuation">;</span>
+
+                <span class="token keyword">return</span> <span class="token punctuation">[</span>result<span class="token punctuation">]</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre></div></div> <div class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新: </span> <span class="time">2018-9-6 21:23:09</span></div></div> <!----> </div> <!----></div></div>
+    <script src="/charting_library_wiki/assets/js/54.b3f35d36.js" defer></script><script src="/charting_library_wiki/assets/js/app.e5b750fa.js" defer></script>
+  </body>
+</html>

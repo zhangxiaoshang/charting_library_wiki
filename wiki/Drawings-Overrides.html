@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Charting Library</title>
+    <meta name="description" content="Charting Library Wiki  TradingView Docs">
+    
+    
+    <link rel="preload" href="/charting_library_wiki/assets/css/0.styles.54154195.css" as="style"><link rel="preload" href="/charting_library_wiki/assets/js/app.e5b750fa.js" as="script"><link rel="preload" href="/charting_library_wiki/assets/js/14.61d2b640.js" as="script"><link rel="prefetch" href="/charting_library_wiki/assets/js/45.77fdc049.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/2.cda51ec0.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/3.9a9210e8.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/4.3025f96f.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/5.2e481db8.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/6.692643df.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/7.d6c7c61a.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/8.ff0f9bbb.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/9.929a30eb.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/10.b9ac493c.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/11.67531abf.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/12.95004755.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/13.5f8b090e.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/15.7019d5c6.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/16.f84bac21.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/17.33bbeaad.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/18.faed2cc9.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/19.eabedd50.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/20.ec41bf98.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/21.e3cda3cb.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/22.75f47b08.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/23.9caf12e7.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/24.9cb52b13.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/25.1ee74391.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/26.23e99a27.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/27.96114175.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/28.c39e9894.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/29.e65ce808.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/30.26d6e58a.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/31.1309fa0e.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/32.f140b54d.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/33.ab7de8c2.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/34.497847f4.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/35.ff0d5d4e.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/36.510643a4.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/37.ea794330.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/38.c805a15f.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/39.dcd0c595.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/40.048441b9.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/41.e8f5ac87.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/42.80345ee9.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/43.810157de.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/44.ee1eb15d.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/46.f3975c58.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/47.e2ed9389.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/48.aa18db6f.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/49.6517b828.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/50.aa45c418.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/51.34038e3a.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/52.d1e1248d.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/53.15f51e33.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/54.b3f35d36.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/55.b3a53b32.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/56.18e47f02.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/57.7107fce6.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/58.fde0151b.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/59.d1cf9754.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/60.79173131.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/61.5e3a4ac2.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/62.e4e6e728.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/63.ff9aea40.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/64.4f66dc8f.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/65.3b5a4286.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/66.a6f5bbdf.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/67.aff444b7.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/68.c79aa96f.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/69.2f04baac.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/70.b0d52396.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/71.148f19aa.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/72.b9e446e2.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/73.ef903171.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/74.d343d04d.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/75.19ae215d.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/76.51b0e0e4.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/77.6279f2f3.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/78.b96dc129.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/79.039f3470.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/80.f6138705.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/81.cce9bb97.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/82.f6415b45.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/83.d375e2c5.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/84.a50f5549.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/85.de85aa80.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/86.9f650c9e.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/87.d9b6ad2a.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/88.a371aca2.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/89.072874a9.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/90.fababa10.js"><link rel="prefetch" href="/charting_library_wiki/assets/js/91.cd19e4f3.js">
+    <link rel="stylesheet" href="/charting_library_wiki/assets/css/0.styles.54154195.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/charting_library_wiki/" class="home-link router-link-active"><!----> <span class="site-name">Charting Library</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/charting_library_wiki/wiki/Drawings-Overrides.html" class="nav-link router-link-exact-active router-link-active">English</a></li><li class="dropdown-item"><!----> <a href="/charting_library_wiki/zh/wiki/Drawings-Overrides.html" class="nav-link">简体中文</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/charting_library_wiki/wiki/Drawings-Overrides.html" class="nav-link router-link-exact-active router-link-active">English</a></li><li class="dropdown-item"><!----> <a href="/charting_library_wiki/zh/wiki/Drawings-Overrides.html" class="nav-link">简体中文</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/charting_library_wiki/wiki/Home.html" class="sidebar-link">What is Charting Library</a></li><li><div class="sidebar-group"><p class="sidebar-heading"><span>Getting Started</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/charting_library_wiki/wiki/Package-Content.html" class="sidebar-link">Package Content</a></li><li><a href="/charting_library_wiki/wiki/Running-Your-Charting-Library.html" class="sidebar-link">Running Your Charting Library</a></li><li><a href="/charting_library_wiki/wiki/Best-Practices.html" class="sidebar-link">Best Practices</a></li><li><a href="/charting_library_wiki/wiki/Frequently-Asked-Questions.html" class="sidebar-link">Frequently Asked Questions</a></li></ul></div></li><li><div class="sidebar-group"><p class="sidebar-heading"><span>Data Binding</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/charting_library_wiki/wiki/How-To-Connect-My-Data.html" class="sidebar-link">How To Connect My Data</a></li><li><a href="/charting_library_wiki/wiki/JS-Api.html" class="sidebar-link">JS Api</a></li><li><a href="/charting_library_wiki/wiki/UDF.html" class="sidebar-link">UDF</a></li><li><a href="/charting_library_wiki/wiki/Symbology.html" class="sidebar-link">Symbology</a></li><li><a href="/charting_library_wiki/wiki/Trading-Sessions.html" class="sidebar-link">Trading Sessions</a></li><li><a href="/charting_library_wiki/wiki/Quotes.html" class="sidebar-link">Quotes</a></li></ul></div></li><li><div class="sidebar-group"><p class="sidebar-heading"><span>Chart Customization</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/charting_library_wiki/wiki/Customization-Overview.html" class="sidebar-link">Customization Overview</a></li><li><a href="/charting_library_wiki/wiki/Widget-Constructor.html" class="sidebar-link">a. Widget Constructor</a></li><li><a href="/charting_library_wiki/wiki/Widget-Methods.html" class="sidebar-link">b. Widget Methods</a></li><li><a href="/charting_library_wiki/wiki/Chart-Methods.html" class="sidebar-link">c. Chart Methods</a></li><li><a href="/charting_library_wiki/wiki/Featuresets.html" class="sidebar-link">d. Featuresets</a></li><li><a href="/charting_library_wiki/wiki/Customization-Overview.html#customization-done-through-data-stream" class="sidebar-link">Server Side Customization</a></li><li><a href="/charting_library_wiki/wiki/Customization-Use-Cases.html" class="sidebar-link">Customization Use Cases</a></li></ul></div></li><li><div class="sidebar-group"><p class="sidebar-heading"><span>Trading Terminal</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/charting_library_wiki/wiki/Trading-Terminal.html" class="sidebar-link">1. Brief Intro</a></li><li><a href="/charting_library_wiki/wiki/Broker-API.html" class="sidebar-link">2. Broker API</a></li><li><a href="/charting_library_wiki/wiki/Trading-Host.html" class="sidebar-link">3. Trading Host</a></li><li><a href="/charting_library_wiki/wiki/Account-Manager.html" class="sidebar-link">4. Account Manager</a></li><li><a href="/charting_library_wiki/wiki/Trading-Objects-and-Constants.html" class="sidebar-link"> 5.Trading Objects and Constants</a></li><li><a href="/charting_library_wiki/wiki/Saving-and-Loading-Charts.html" class="sidebar-link">Saving/Loading Charts</a></li><li><a href="/charting_library_wiki/wiki/Creating-Custom-Studies.html" class="sidebar-link">Creating Custom Studies</a></li><li><a href="/charting_library_wiki/wiki/Breaking-Changes.html" class="sidebar-link">Breaking Changes In Version</a></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><p>The complete list of drawings overrides with default values is presented here. You can change the default values using the <code>overrides</code> argument of the <a href="Widget-Constructor#overrides">widget constructor</a>. At the bottom of this list you will find a list of constants and abbreviations used in the values.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>linetoolicon<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    singleChartOnly<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 61, 133, 198, 1)'</span><span class="token punctuation">,</span>
+    snapTo45Degrees<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    size<span class="token punctuation">:</span> <span class="token number">40</span><span class="token punctuation">,</span>
+    icon<span class="token punctuation">:</span> <span class="token number">0x263A</span><span class="token punctuation">,</span>
+    angle<span class="token punctuation">:</span> Math<span class="token punctuation">.</span><span class="token constant">PI</span> <span class="token operator">*</span> <span class="token number">0.5</span><span class="token punctuation">,</span>
+    scale<span class="token punctuation">:</span> <span class="token number">1.0</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolbezierquadro<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 153, 128, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 56, 153, 0.5)'</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    extendLeft<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    extendRight<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    leftEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span><span class="token punctuation">,</span>
+    rightEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolbeziercubic<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 153, 128, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 56, 153, 0.5)'</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    extendLeft<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    extendRight<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    leftEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span><span class="token punctuation">,</span>
+    rightEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetooltrendline<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 153, 128, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    extendLeft<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    extendRight<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    leftEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span><span class="token punctuation">,</span>
+    rightEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 119, 96, 1)'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    snapTo45Degrees<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    alwaysShowStats<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showPriceRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showBarsRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showDateTimeRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showDistance<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    showAngle<span class="token punctuation">:</span> <span class="token boolean">false</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetooltimecycles<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba(21, 153, 128, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba(106, 168, 79, 0.5)'</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolsineline<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 153, 128, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetooltrendangle<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    singleChartOnly<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 153, 128, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    snapTo45Degrees<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 119, 96, 1)'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    alwaysShowStats<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showPriceRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showBarsRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    extendRight<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    extendLeft<span class="token punctuation">:</span> <span class="token boolean">false</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetooldisjointangle<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 18, 159, 92, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">2.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 106, 168, 79, 0.5)'</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    extendLeft<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    extendRight<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    leftEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span><span class="token punctuation">,</span>
+    rightEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 18, 159, 92, 1)'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    showPrices<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showPriceRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showDateTimeRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showBarsRange<span class="token punctuation">:</span> <span class="token boolean">false</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolflatbottom<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 73, 133, 231, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">2.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 56, 153, 0.5)'</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    extendLeft<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    extendRight<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    leftEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span><span class="token punctuation">,</span>
+    rightEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 73, 133, 231, 1)'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    showPrices<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showPriceRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showDateTimeRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showBarsRange<span class="token punctuation">:</span> <span class="token boolean">false</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolfibspiral<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 153, 128, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetooldaterange<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 88, 88, 88, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 255, 255, 1)'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    fillLabelBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    labelBackgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 91, 133, 191, 0.9)'</span><span class="token punctuation">,</span>
+    labelBackgroundTransparency<span class="token punctuation">:</span> <span class="token number">30</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 186, 218, 255, 0.4)'</span><span class="token punctuation">,</span>
+    backgroundTransparency<span class="token punctuation">:</span> <span class="token number">60</span><span class="token punctuation">,</span>
+    drawBorder<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    borderColor<span class="token punctuation">:</span> <span class="token string">'rgba( 102, 123, 139, 1)'</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolpricerange<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 88, 88, 88, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 255, 255, 1)'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    fillLabelBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    labelBackgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 91, 133, 191, 0.9)'</span><span class="token punctuation">,</span>
+    labelBackgroundTransparency<span class="token punctuation">:</span> <span class="token number">30</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 186, 218, 255, 0.4)'</span><span class="token punctuation">,</span>
+    backgroundTransparency<span class="token punctuation">:</span> <span class="token number">60</span><span class="token punctuation">,</span>
+    drawBorder<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    borderColor<span class="token punctuation">:</span> <span class="token string">'rgba( 102, 123, 139, 1)'</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetooldateandpricerange<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 88, 88, 88, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 255, 255, 1)'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    fillLabelBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    labelBackgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 91, 133, 191, 0.9)'</span><span class="token punctuation">,</span>
+    labelBackgroundTransparency<span class="token punctuation">:</span> <span class="token number">30</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 186, 218, 255, 0.4)'</span><span class="token punctuation">,</span>
+    backgroundTransparency<span class="token punctuation">:</span> <span class="token number">60</span><span class="token punctuation">,</span>
+    drawBorder<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    borderColor<span class="token punctuation">:</span> <span class="token string">'rgba( 102, 123, 139, 1)'</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolriskrewardshort<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 88, 88, 88, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba(255, 255, 255, 1)'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    fillLabelBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    labelBackgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 88, 88, 88, 1)'</span><span class="token punctuation">,</span>
+    labelBackgroundTransparency<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    stopBackground<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 0, 0, 0.2)'</span><span class="token punctuation">,</span>
+    profitBackground<span class="token punctuation">:</span> <span class="token string">'rgba( 0, 160, 0, 0.2)'</span><span class="token punctuation">,</span>
+    stopBackgroundTransparency<span class="token punctuation">:</span> <span class="token number">80</span><span class="token punctuation">,</span>
+    profitBackgroundTransparency<span class="token punctuation">:</span> <span class="token number">80</span><span class="token punctuation">,</span>
+    drawBorder<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    borderColor<span class="token punctuation">:</span> <span class="token string">'rgba( 102, 123, 139, 1)'</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolriskrewardlong<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 88, 88, 88, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba(255, 255, 255, 1)'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    fillLabelBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    labelBackgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 88, 88, 88, 1)'</span><span class="token punctuation">,</span>
+    labelBackgroundTransparency<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    stopBackground<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 0, 0, 0.2)'</span><span class="token punctuation">,</span>
+    profitBackground<span class="token punctuation">:</span> <span class="token string">'rgba( 0, 160, 0, 0.2)'</span><span class="token punctuation">,</span>
+    stopBackgroundTransparency<span class="token punctuation">:</span> <span class="token number">80</span><span class="token punctuation">,</span>
+    profitBackgroundTransparency<span class="token punctuation">:</span> <span class="token number">80</span><span class="token punctuation">,</span>
+    drawBorder<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    borderColor<span class="token punctuation">:</span> <span class="token string">'rgba( 102, 123, 139, 1)'</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolarrow<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 111, 136, 198, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">2.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    extendLeft<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    extendRight<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    leftEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span><span class="token punctuation">,</span>
+    rightEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_ARROW</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 119, 96, 1)'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    alwaysShowStats<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showPriceRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showBarsRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showDateTimeRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showDistance<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    showAngle<span class="token punctuation">:</span> <span class="token boolean">false</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolray<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 153, 128, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    extendLeft<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    extendRight<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    leftEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span><span class="token punctuation">,</span>
+    rightEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 119, 96, 1)'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    alwaysShowStats<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showPriceRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showBarsRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showDateTimeRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showDistance<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    showAngle<span class="token punctuation">:</span> <span class="token boolean">false</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolextended<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 153, 128, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    extendLeft<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    extendRight<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    leftEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span><span class="token punctuation">,</span>
+    rightEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 119, 96, 1)'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    alwaysShowStats<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showPriceRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showBarsRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showDateTimeRange<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    showDistance<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    showAngle<span class="token punctuation">:</span> <span class="token boolean">false</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolhorzline<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 128, 204, 219, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    showPrice<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    showLabel<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    text<span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 119, 96, 1)'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    horzLabelsAlign<span class="token punctuation">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span>
+    vertLabelsAlign<span class="token punctuation">:</span> <span class="token string">'top'</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolhorzray<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 128, 204, 219, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    showPrice<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    showLabel<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    text<span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 119, 96, 1)'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    horzLabelsAlign<span class="token punctuation">:</span> <span class="token string">'center'</span><span class="token punctuation">,</span>
+    vertLabelsAlign<span class="token punctuation">:</span> <span class="token string">'top'</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolvertline<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 128, 204, 219, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    showTime<span class="token punctuation">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolcirclelines<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    trendline<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        visible<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        color<span class="token punctuation">:</span> <span class="token string">'rgba( 128, 128, 128, 1)'</span><span class="token punctuation">,</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_DASHED</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 128, 204, 219, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolfibtimezone<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    horzLabelsAlign<span class="token punctuation">:</span> <span class="token string">'right'</span><span class="token punctuation">,</span>
+    vertLabelsAlign<span class="token punctuation">:</span> <span class="token string">'bottom'</span><span class="token punctuation">,</span>
+    baselinecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 128, 128, 128, 1)'</span><span class="token punctuation">,</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 0, 85, 219, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    showLabels<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    trendline<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        visible<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        color<span class="token punctuation">:</span> <span class="token string">'rgba( 128, 128, 128, 1)'</span><span class="token punctuation">,</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_DASHED</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    level1<span class="token operator">-</span><span class="token number">11</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_C</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetooltext<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 102, 123, 139, 1)'</span><span class="token punctuation">,</span>
+    text<span class="token punctuation">:</span> $<span class="token punctuation">.</span><span class="token function">t</span><span class="token punctuation">(</span><span class="token string">'Text'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 91, 133, 191, 0.9)'</span><span class="token punctuation">,</span>
+    backgroundTransparency<span class="token punctuation">:</span> <span class="token number">70</span><span class="token punctuation">,</span>
+    drawBorder<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    borderColor<span class="token punctuation">:</span> <span class="token string">'rgba( 102, 123, 139, 1)'</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    locked<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    fixedSize<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    wordWrap<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    wordWrapWidth<span class="token punctuation">:</span> <span class="token number">400</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetooltextabsolute<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    singleChartOnly<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 102, 123, 139, 1)'</span><span class="token punctuation">,</span>
+    text<span class="token punctuation">:</span> $<span class="token punctuation">.</span><span class="token function">t</span><span class="token punctuation">(</span><span class="token string">'Text'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 155, 190, 213, 0.3)'</span><span class="token punctuation">,</span>
+    backgroundTransparency<span class="token punctuation">:</span> <span class="token number">70</span><span class="token punctuation">,</span>
+    drawBorder<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    borderColor<span class="token punctuation">:</span> <span class="token string">'rgba( 102, 123, 139, 1)'</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    locked<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    wordWrap<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    wordWrapWidth<span class="token punctuation">:</span> <span class="token number">400</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolballoon<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 102, 123, 139, 1)'</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 254, 206, 0.7)'</span><span class="token punctuation">,</span>
+    borderColor<span class="token punctuation">:</span> <span class="token string">'rgba( 140, 140, 140, 1)'</span><span class="token punctuation">,</span>
+    fontWeight<span class="token punctuation">:</span> <span class="token string">'bold'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Arial'</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">30</span><span class="token punctuation">,</span>
+    text<span class="token punctuation">:</span> $<span class="token punctuation">.</span><span class="token function">t</span><span class="token punctuation">(</span><span class="token string">'Comment'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolbrush<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 53, 53, 53, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">2.0</span><span class="token punctuation">,</span>
+    smooth<span class="token punctuation">:</span><span class="token number">5</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 56, 153, 0.5)'</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    leftEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span><span class="token punctuation">,</span>
+    rightEnd<span class="token punctuation">:</span> <span class="token constant">LINEEND_NORMAL</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolpolyline<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 53, 53, 53, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">2.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 56, 153, 0.5)'</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    filled<span class="token punctuation">:</span> <span class="token boolean">false</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolarrowmark<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 120, 120, 120, 1)'</span><span class="token punctuation">,</span>
+    text<span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolarrowmarkleft<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 120, 120, 120, 1)'</span><span class="token punctuation">,</span>
+    text<span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolarrowmarkup<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 120, 120, 120, 1)'</span><span class="token punctuation">,</span>
+    text<span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolarrowmarkright<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 120, 120, 120, 1)'</span><span class="token punctuation">,</span>
+    text<span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolarrowmarkdown<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 120, 120, 120, 1)'</span><span class="token punctuation">,</span>
+    text<span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolflagmark<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 0, 0, 1)'</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+linetoolnote<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    markerColor<span class="token punctuation">:</span> <span class="token string">'rgba( 46, 102, 255, 1)'</span><span class="token punctuation">,</span>
+    textColor<span class="token punctuation">:</span> <span class="token string">'rgba( 0, 0, 0, 1)'</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 255, 255, 1)'</span><span class="token punctuation">,</span>
+    backgroundTransparency<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    text<span class="token punctuation">:</span> <span class="token string">'Text'</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Arial'</span><span class="token punctuation">,</span>
+    fontSize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    locked<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    fixedSize<span class="token punctuation">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+linetoolnoteabsolute<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    singleChartOnly<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    markerColor<span class="token punctuation">:</span> <span class="token string">'rgba( 46, 102, 255, 1)'</span><span class="token punctuation">,</span>
+    textColor<span class="token punctuation">:</span> <span class="token string">'rgba( 0, 0, 0, 1)'</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 255, 255, 1)'</span><span class="token punctuation">,</span>
+    backgroundTransparency<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+    text<span class="token punctuation">:</span> <span class="token string">'Text'</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Arial'</span><span class="token punctuation">,</span>
+    fontSize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    locked<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    fixedSize<span class="token punctuation">:</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+linetoolthumbup<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 0, 128, 0, 1)'</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolthumbdown<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 0, 0, 1)'</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolpricelabel<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 102, 123, 139, 1)'</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 255, 255, 0.7)'</span><span class="token punctuation">,</span>
+    borderColor<span class="token punctuation">:</span> <span class="token string">'rgba( 140, 140, 140, 1)'</span><span class="token punctuation">,</span>
+    fontWeight<span class="token punctuation">:</span> <span class="token string">'bold'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">11</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Arial'</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">30</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolrectangle<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 56, 153, 1)'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 56, 153, 0.5)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    snapTo45Degrees<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolrotatedrectangle<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 152, 0, 255, 1)'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 142, 124, 195, 0.5)'</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    snapTo45Degrees<span class="token punctuation">:</span><span class="token boolean">true</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolellipse<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 153, 153, 21, 1)'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 153, 153, 21, 0.5)'</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolarc<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 153, 153, 21, 1)'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 153, 153, 21, 0.5)'</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolprediction<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    singleChartOnly<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 28, 115, 219, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">2.0</span><span class="token punctuation">,</span>
+
+    sourceBackColor<span class="token punctuation">:</span> <span class="token string">'rgba( 241, 241, 241, 1)'</span><span class="token punctuation">,</span>
+    sourceTextColor<span class="token punctuation">:</span> <span class="token string">'rgba( 110, 110, 110, 1)'</span><span class="token punctuation">,</span>
+    sourceStrokeColor<span class="token punctuation">:</span> <span class="token string">'rgba( 110, 110, 110, 1)'</span><span class="token punctuation">,</span>
+
+    targetStrokeColor<span class="token punctuation">:</span><span class="token string">'rgba( 47, 168, 255, 1)'</span><span class="token punctuation">,</span>
+    targetBackColor<span class="token punctuation">:</span><span class="token string">'rgba( 11, 111, 222, 1)'</span><span class="token punctuation">,</span>
+    targetTextColor<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 255, 255, 1)'</span><span class="token punctuation">,</span>
+
+    successBackground<span class="token punctuation">:</span> <span class="token string">'rgba( 54, 160, 42, 0.9)'</span><span class="token punctuation">,</span>
+    successTextColor<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 255, 255, 1)'</span><span class="token punctuation">,</span>
+
+    failureBackground<span class="token punctuation">:</span> <span class="token string">'rgba( 231, 69, 69, 0.5)'</span><span class="token punctuation">,</span>
+    failureTextColor<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 255, 255, 1)'</span><span class="token punctuation">,</span>
+
+    intermediateBackColor<span class="token punctuation">:</span> <span class="token string">'rgba( 234, 210, 137, 1)'</span><span class="token punctuation">,</span>
+    intermediateTextColor<span class="token punctuation">:</span> <span class="token string">'rgba( 109, 77, 34, 1)'</span><span class="token punctuation">,</span>
+
+    transparency<span class="token punctuation">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+    centersColor<span class="token punctuation">:</span> <span class="token string">'rgba( 32, 32, 32, 1)'</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetooltriangle<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 153, 21, 21, 1)'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 153, 21, 21, 0.5)'</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolcallout<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 255, 255, 1)'</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 153, 21, 21, 0.5)'</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">2.0</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span> <span class="token number">12</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span><span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    text<span class="token punctuation">:</span> <span class="token string">'Text'</span><span class="token punctuation">,</span>
+    bordercolor<span class="token punctuation">:</span> <span class="token string">'rgba( 153, 21, 21, 1)'</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    wordWrap<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    wordWrapWidth<span class="token punctuation">:</span> <span class="token number">400</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolparallelchannel<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    linecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 119, 52, 153, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    extendLeft<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    extendRight<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 180, 167, 214, 0.5)'</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    showMidline<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    midlinecolor<span class="token punctuation">:</span> <span class="token string">'rgba( 119, 52, 153, 1)'</span><span class="token punctuation">,</span>
+    midlinewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    midlinestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_DASHED</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolelliottimpulse<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    degree<span class="token punctuation">:</span> <span class="token number">7</span><span class="token punctuation">,</span>
+    showWave<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 61, 133, 198, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolelliotttriangle<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    degree<span class="token punctuation">:</span> <span class="token number">7</span><span class="token punctuation">,</span>
+    showWave<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 152, 0, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolelliotttriplecombo<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    degree<span class="token punctuation">:</span> <span class="token number">7</span><span class="token punctuation">,</span>
+    showWave<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 106, 168, 79, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolelliottcorrection<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    degree<span class="token punctuation">:</span> <span class="token number">7</span><span class="token punctuation">,</span>
+    showWave<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 61, 133, 198, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolelliottdoublecombo<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    degree<span class="token punctuation">:</span> <span class="token number">7</span><span class="token punctuation">,</span>
+    showWave<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 106, 168, 79, 1)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolbarspattern<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    singleChartOnly<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    color<span class="token punctuation">:</span><span class="token string">'rgba( 80, 145, 204, 1)'</span><span class="token punctuation">,</span>
+    mode<span class="token punctuation">:</span><span class="token constant">BARS_MODE</span><span class="token punctuation">,</span>
+    mirrored<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    flipped<span class="token punctuation">:</span><span class="token boolean">false</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolghostfeed<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    singleChartOnly<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    averageHL<span class="token punctuation">:</span> <span class="token number">20</span><span class="token punctuation">,</span>
+    variance<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    candleStyle<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        upColor<span class="token punctuation">:</span> <span class="token string">'#6ba583'</span><span class="token punctuation">,</span>
+        downColor<span class="token punctuation">:</span> <span class="token string">'#d75442'</span><span class="token punctuation">,</span>
+        drawWick<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        drawBorder<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        borderColor<span class="token punctuation">:</span> <span class="token string">'#378658'</span><span class="token punctuation">,</span>
+        borderUpColor<span class="token punctuation">:</span> <span class="token string">'#225437'</span><span class="token punctuation">,</span>
+        borderDownColor<span class="token punctuation">:</span> <span class="token string">'#5b1a13'</span><span class="token punctuation">,</span>
+        wickColor<span class="token punctuation">:</span> <span class="token string">'#737375'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolpitchfork<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    style<span class="token punctuation">:</span><span class="token constant">PITCHFORK_STYLE_ORIGINAL</span><span class="token punctuation">,</span>
+    median<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        visible<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        color<span class="token punctuation">:</span> <span class="token string">'rgba( 165, 0, 0, 1)'</span><span class="token punctuation">,</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    level0<span class="token operator">-</span><span class="token number">8</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_C</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolpitchfan<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    median<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        visible<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        color<span class="token punctuation">:</span> <span class="token string">'rgba( 165, 0, 0, 1)'</span><span class="token punctuation">,</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    level0<span class="token operator">-</span><span class="token number">8</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_C</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolgannfan<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    showLabels<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    level1<span class="token operator">-</span><span class="token number">9</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_F</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolganncomplex<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    arcsBackground<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        transparency<span class="token punctuation">:</span> <span class="token number">80</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    levels<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token comment">/* 6 LEVELS_TYPE_D */</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    fanlines<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token comment">/* 11 LEVELS_TYPE_E */</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    arcs<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token comment">/* 11 LEVELS_TYPE_E */</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolgannsquare<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 21, 56, 153, 0.8)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    showTopLabels<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    showBottomLabels<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    showLeftLabels<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    showRightLabels<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    fillHorzBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    horzTransparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    fillVertBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    vertTransparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    hlevel1<span class="token operator">-</span><span class="token number">7</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_B</span><span class="token punctuation">,</span>
+    vlevel1<span class="token operator">-</span><span class="token number">7</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_B</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolfibspeedresistancefan<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    grid<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        color<span class="token punctuation">:</span> <span class="token string">'rgba( 128, 128, 128, 1)'</span><span class="token punctuation">,</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+        visible<span class="token punctuation">:</span><span class="token boolean">true</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    showTopLabels<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    showBottomLabels<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    showLeftLabels<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    showRightLabels<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    snapTo45Degrees<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    hlevel1<span class="token operator">-</span><span class="token number">7</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_B</span><span class="token punctuation">,</span>
+    vlevel1<span class="token operator">-</span><span class="token number">7</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_B</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolfibretracement<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    showCoeffs<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    showPrices<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    extendLines<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    horzLabelsAlign<span class="token punctuation">:</span> <span class="token string">'left'</span><span class="token punctuation">,</span>
+    vertLabelsAlign<span class="token punctuation">:</span> <span class="token string">'middle'</span><span class="token punctuation">,</span>
+    reverse<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    coeffsAsPercents<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    trendline<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        visible<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        color<span class="token punctuation">:</span> <span class="token string">'rgba( 128, 128, 128, 1)'</span><span class="token punctuation">,</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_DASHED</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    levelsStyle<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    level1<span class="token operator">-</span><span class="token number">24</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_B</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolfibchannel<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    showCoeffs<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    showPrices<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    extendLeft<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    extendRight<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    horzLabelsAlign<span class="token punctuation">:</span> <span class="token string">'left'</span><span class="token punctuation">,</span>
+    vertLabelsAlign<span class="token punctuation">:</span> <span class="token string">'middle'</span><span class="token punctuation">,</span>
+    coeffsAsPercents<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    levelsStyle<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    level1<span class="token operator">-</span><span class="token number">24</span><span class="token punctuation">:</span>  <span class="token constant">LEVELS_TYPE_B</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolprojection<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    showCoeffs<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    color1<span class="token punctuation">:</span> <span class="token string">'rgba( 0, 128, 0, 0.2)'</span><span class="token punctuation">,</span>
+    color2<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 0, 0, 0.2)'</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+    trendline<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        visible<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        color<span class="token punctuation">:</span> <span class="token string">'rgba( 128, 128, 128, 1)'</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    level1<span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_C</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetool5pointspattern<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 204, 40, 149, 1)'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 255, 255, 1)'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 204, 40, 149, 0.5)'</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span><span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolcypherpattern<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'#CC2895'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'#FFFFFF'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'#CC2895'</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span><span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetooltrianglepattern<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 149, 40, 255, 1)'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 255, 255, 1)'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 149, 40, 204, 0.5)'</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span><span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolabcd<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 0, 155, 0, 1)'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 255, 255, 1)'</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span><span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">2.0</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolthreedrivers<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 149, 40, 255, 1)'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 255, 255, 1)'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 149, 40, 204, 0.5)'</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span><span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">2.0</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolheadandshoulders<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> <span class="token string">'rgba( 69, 104, 47, 1)'</span><span class="token punctuation">,</span>
+    textcolor<span class="token punctuation">:</span> <span class="token string">'rgba( 255, 255, 255, 1)'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    backgroundColor<span class="token punctuation">:</span> <span class="token string">'rgba( 69, 168, 47, 0.5)'</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fontsize<span class="token punctuation">:</span><span class="token number">12</span><span class="token punctuation">,</span>
+    bold<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    italic<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span> <span class="token number">50</span><span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> <span class="token number">2.0</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolfibwedge<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    singleChartOnly<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    showCoeffs<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    trendline<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        visible<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        color<span class="token punctuation">:</span> <span class="token string">'rgba( 128, 128, 128, 1)'</span><span class="token punctuation">,</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    level1<span class="token operator">-</span><span class="token number">11</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_C</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolfibcircles<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    showCoeffs<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    snapTo45Degrees<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    coeffsAsPercents<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    trendline<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        visible<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        color<span class="token punctuation">:</span> <span class="token string">'rgba( 128, 128, 128, 1)'</span><span class="token punctuation">,</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_DASHED</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    level1<span class="token operator">-</span><span class="token number">11</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_C</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolfibspeedresistancearcs<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    showCoeffs<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    fullCircles<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    trendline<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        visible<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        color<span class="token punctuation">:</span> <span class="token string">'rgba( 128, 128, 128, 1)'</span><span class="token punctuation">,</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_DASHED</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    level1<span class="token operator">-</span><span class="token number">11</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_C</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetooltrendbasedfibextension<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    showCoeffs<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    showPrices<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    extendLines<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    horzLabelsAlign<span class="token punctuation">:</span> <span class="token string">'left'</span><span class="token punctuation">,</span>
+    vertLabelsAlign<span class="token punctuation">:</span> <span class="token string">'middle'</span><span class="token punctuation">,</span>
+    reverse<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    coeffsAsPercents<span class="token punctuation">:</span><span class="token boolean">false</span><span class="token punctuation">,</span>
+    trendline<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        visible<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        color<span class="token punctuation">:</span> <span class="token string">'rgba( 128, 128, 128, 1)'</span><span class="token punctuation">,</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_DASHED</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    levelsStyle<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    level1<span class="token operator">-</span><span class="token number">24</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_B</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetooltrendbasedfibtime<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    showCoeffs<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    font<span class="token punctuation">:</span> <span class="token string">'Verdana'</span><span class="token punctuation">,</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    horzLabelsAlign<span class="token punctuation">:</span> <span class="token string">'right'</span><span class="token punctuation">,</span>
+    vertLabelsAlign<span class="token punctuation">:</span> <span class="token string">'bottom'</span><span class="token punctuation">,</span>
+    trendline<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        visible<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        color<span class="token punctuation">:</span> <span class="token string">'rgba( 128, 128, 128, 1)'</span><span class="token punctuation">,</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_DASHED</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    level1<span class="token operator">-</span><span class="token number">11</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_C</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolschiffpitchfork<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    style<span class="token punctuation">:</span><span class="token constant">PITCHFORK_STYLE_SCHIFF</span><span class="token punctuation">,</span>
+    median<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        visible<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        color<span class="token punctuation">:</span> <span class="token string">'rgba( 165, 0, 0, 1)'</span><span class="token punctuation">,</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    level0<span class="token operator">-</span><span class="token number">8</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_C</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolschiffpitchfork2<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    style<span class="token punctuation">:</span><span class="token constant">PITCHFORK_STYLE_SCHIFF2</span><span class="token punctuation">,</span>
+    median<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        visible<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        color<span class="token punctuation">:</span> <span class="token string">'rgba( 165, 0, 0, 1)'</span><span class="token punctuation">,</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    level0<span class="token operator">-</span><span class="token number">8</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_C</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolinsidepitchfork<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    fillBackground<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+    transparency<span class="token punctuation">:</span><span class="token number">80</span><span class="token punctuation">,</span>
+    style<span class="token punctuation">:</span><span class="token constant">PITCHFORK_STYLE_INSIDE</span><span class="token punctuation">,</span>
+    median<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        visible<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+        color<span class="token punctuation">:</span> <span class="token string">'rgba( 165, 0, 0, 1)'</span><span class="token punctuation">,</span>
+        linewidth<span class="token punctuation">:</span> <span class="token number">1.0</span><span class="token punctuation">,</span>
+        linestyle<span class="token punctuation">:</span> <span class="token constant">LINESTYLE_SOLID</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    level0<span class="token operator">-</span><span class="token number">8</span><span class="token punctuation">:</span> <span class="token constant">LEVELS_TYPE_C</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+linetoolvisibilities<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    intervalsVisibilities<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        seconds<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+        secondsFrom<span class="token punctuation">:</span><span class="token number">1</span><span class="token punctuation">,</span>
+        secondsTo<span class="token punctuation">:</span><span class="token number">59</span><span class="token punctuation">,</span>
+        minutes<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+        minutesFrom<span class="token punctuation">:</span><span class="token number">1</span><span class="token punctuation">,</span>
+        minutesTo<span class="token punctuation">:</span><span class="token number">59</span><span class="token punctuation">,</span>
+        hours<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+        hoursFrom<span class="token punctuation">:</span><span class="token number">1</span><span class="token punctuation">,</span>
+        hoursTo<span class="token punctuation">:</span><span class="token number">24</span><span class="token punctuation">,</span>
+        days<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+        daysFrom<span class="token punctuation">:</span><span class="token number">1</span><span class="token punctuation">,</span>
+        daysTo<span class="token punctuation">:</span><span class="token number">366</span><span class="token punctuation">,</span>
+        weeks<span class="token punctuation">:</span><span class="token boolean">true</span><span class="token punctuation">,</span>
+        months<span class="token punctuation">:</span><span class="token boolean">true</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="constants"><a href="#constants" aria-hidden="true" class="header-anchor">#</a> Constants</h3> <p>These constants are used in the default properties of drawings. You cannot use their names directly. Use their values instead.</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token constant">LINESTYLE_SOLID</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token constant">LINESTYLE_DOTTED</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token constant">LINESTYLE_DASHED</span> <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+<span class="token constant">LINESTYLE_LARGE_DASHED</span> <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span>
+
+<span class="token constant">LINEEND_NORMAL</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token constant">LINEEND_ARROW</span>  <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token constant">LINEEND_CIRCLE</span> <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+
+<span class="token constant">BARS_MODE</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token constant">LINE_MODE</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token constant">OPENCLOSE_MODE</span> <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+<span class="token constant">LINEOPEN_MODE</span> <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span>
+<span class="token constant">LINEHIGH_MODE</span> <span class="token operator">=</span> <span class="token number">4</span><span class="token punctuation">;</span>
+<span class="token constant">LINELOW_MODE</span> <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>
+<span class="token constant">LINEHL2_MODE</span> <span class="token operator">=</span> <span class="token number">6</span><span class="token punctuation">;</span>
+
+<span class="token constant">PITCHFORK_STYLE_ORIGINAL</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token constant">PITCHFORK_STYLE_SCHIFF</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token constant">PITCHFORK_STYLE_SCHIFF2</span> <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+<span class="token constant">PITCHFORK_STYLE_INSIDE</span> <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span>
+
+<span class="token constant">LEVELS_TYPE_A</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> color<span class="token punctuation">,</span>
+    visible<span class="token punctuation">:</span> visible
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token constant">LEVELS_TYPE_B</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+    coeff<span class="token punctuation">:</span> coeff<span class="token punctuation">,</span>
+    color<span class="token punctuation">:</span> color<span class="token punctuation">,</span>
+    visible<span class="token punctuation">:</span> visible
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token constant">LEVELS_TYPE_C</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+    coeff<span class="token punctuation">:</span> coeff<span class="token punctuation">,</span>
+    color<span class="token punctuation">:</span> color<span class="token punctuation">,</span>
+    visible<span class="token punctuation">:</span> visible<span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> linestyle<span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> linewidth
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token constant">LEVELS_TYPE_D</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> color<span class="token punctuation">,</span>
+    width<span class="token punctuation">:</span> width<span class="token punctuation">,</span>
+    visible<span class="token punctuation">:</span> visible
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token constant">LEVELS_TYPE_E</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+    color<span class="token punctuation">:</span> color<span class="token punctuation">,</span>
+    visible<span class="token punctuation">:</span> visible<span class="token punctuation">,</span>
+    width<span class="token punctuation">:</span> width<span class="token punctuation">,</span>
+    x<span class="token punctuation">:</span> x<span class="token punctuation">,</span>
+    y<span class="token punctuation">:</span> y
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token constant">LEVELS_TYPE_F</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+    coeff1<span class="token punctuation">:</span> coeff1<span class="token punctuation">,</span>
+    coeff2<span class="token punctuation">:</span> coeff2<span class="token punctuation">,</span>
+    color<span class="token punctuation">:</span> color<span class="token punctuation">,</span>
+    visible<span class="token punctuation">:</span> visible<span class="token punctuation">,</span>
+    linestyle<span class="token punctuation">:</span> linestyle<span class="token punctuation">,</span>
+    linewidth<span class="token punctuation">:</span> linewidth
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div></div> <div class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">9/6/2018, 9:23:09 PM</span></div></div> <!----> </div> <!----></div></div>
+    <script src="/charting_library_wiki/assets/js/14.61d2b640.js" defer></script><script src="/charting_library_wiki/assets/js/app.e5b750fa.js" defer></script>
+  </body>
+</html>
