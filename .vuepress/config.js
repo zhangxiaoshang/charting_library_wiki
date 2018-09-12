@@ -52,22 +52,22 @@ var sidebar = [
 ]
 
 var sidebar_zh = [
-  ['/zh/wiki/Home', 'What is Charting Library'],
+  ['/zh/wiki/Home', 'Charting Library 是什么'],
   {
-    title: 'Getting Started',
+    title: '现在开始',
     collapsable: false,
     children: [
-      ['/zh/wiki/Package-Content', 'Package Content'],
-      ['/zh/wiki/Running-Your-Charting-Library', 'Running Your Charting Library'],
-      ['/zh/wiki/Best-Practices', 'Best Practices'],
-      ['/zh/wiki/Frequently-Asked-Questions', 'Frequently Asked Questions']
+      ['/zh/wiki/Package-Content', '文件包内容'],
+      ['/zh/wiki/Running-Your-Charting-Library', '运行图表库'],
+      ['/zh/wiki/Best-Practices', '最佳实践'],
+      ['/zh/wiki/Frequently-Asked-Questions', '常见问题']
     ]
   },
   {
-    title: 'Data Binding',
+    title: '绑定数据',
     collapsable: false,
     children: [
-      ['/zh/wiki/How-To-Connect-My-Data', 'How To Connect My Data'],
+      ['/zh/wiki/How-To-Connect-My-Data', '如何连接我的数据'],
       ['/zh/wiki/JS-Api', 'JS Api'],
       ['/zh/wiki/UDF', 'UDF'],
       ['/zh/wiki/Symbology', 'Symbology'],
@@ -76,7 +76,7 @@ var sidebar_zh = [
     ]
   },
   {
-    title: 'Chart Customization',
+    title: '图表定制',
     collapsable: false,
     children: [
       ['/zh/wiki/Customization-Overview', 'Customization Overview'],
@@ -84,8 +84,8 @@ var sidebar_zh = [
       ['/zh/wiki/Widget-Methods', 'b. Widget Methods'],
       ['/zh/wiki/Chart-Methods', 'c. Chart Methods'],
       ['/zh/wiki/Featuresets', 'd. Featuresets'],
-      ['/zh/wiki/Customization-Overview#customization-done-through-data-stream', 'Server Side Customization'],
-      ['/zh/wiki/Customization-Use-Cases', 'Customization Use Cases']
+      ['/zh/wiki/Customization-Overview#customization-done-through-data-stream', '服务器端定制'],
+      ['/zh/wiki/Customization-Use-Cases', '定制用例']
     ]
   },
   {
